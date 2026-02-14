@@ -1,0 +1,38 @@
+
+.widget {
+    padding: 100px 88px;
+    background: #fff;
+    width: 345px;
+    border-radius: 8px;
+}
+
+.sub-text {
+    font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #2e2f42;
+        margin-bottom: 16px;
+}
+
+.change-color {
+    font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
+        border-radius: 8px;
+            padding: 8px 16px;
+            width: 148px;
+            background: #4e75ff;
+            transition: background-color 250ms ease-out;
+
+}
+
+.change-color:hover,
+.change-color:focus {
+    background-color: #6c8cff;
+}
+
