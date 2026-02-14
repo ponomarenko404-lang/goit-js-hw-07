@@ -12,6 +12,7 @@ function changeBackgroundColor() {
 
   document.body.style.backgroundColor = color;
   colorSpan.textContent = color;
+  buttonChange.blur()
 }
 
 buttonChange.addEventListener("click", changeBackgroundColor);
