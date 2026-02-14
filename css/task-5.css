@@ -1,5 +1,10 @@
-
+body,
 .widget {
+    transition: background-color 300ms ease;
+}
+.widget {
+    margin-right: auto;
+    margin-left: auto;
     padding: 100px 88px;
     background: #fff;
     width: 345px;
